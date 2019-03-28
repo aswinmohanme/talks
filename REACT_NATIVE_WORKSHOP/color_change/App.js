@@ -8,12 +8,15 @@ export default class App extends React.Component {
       color: 'red'
     };
   }
+
   render() {
     return (
-      <View style={styles.container}>
-            <View style={{...styles.box, backgroundColor: this.state.color}}></View>
-            <TouchableOpacity onPress={() => this.state.color == 'red' ? this.setState({ color: 'green' }) : this.setState({color: 'red'})}>
-          <Text style={styles.changeColorText}>Change Color</Text></TouchableOpacity>
+      <View style={{ flex: 1, backgroundColor: '#ffffff', alignItems: 'center', justifyContent: 'center' }}>
+        <View style={{ height: 100, width: 100, borderRadius: 8, backgroundColor: this.state.color }}></View>
+
+        <TouchableOpacity onPress={() => this.state.color == 'red' ? this.setState({ color: 'green' }) : this.setState({ color: 'red' })}>
+          <Text style={{ fontSize: 16, padding: 16 }}>Change Color</Text>
+        </TouchableOpacity>
       </View>
     );
   }
