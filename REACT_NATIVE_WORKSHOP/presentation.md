@@ -93,6 +93,11 @@ Build native mobile apps using JavaScript and React, using a single codebase.
 ## Layout with Flexbox
 * Easiest layout paradigm on the planet
 
+* External stylesheet example
+
+* Layout Exercises
+ * Create a three box layout and play around with it on screen
+
 ## Composition and Code Splitting
 * Split code into modules for reuse
 
@@ -100,6 +105,9 @@ Build native mobile apps using JavaScript and React, using a single codebase.
 
 ## Props
 * Pass data to those components
+
+* Component Exercises
+  * Refactor both codebases to use Components
 
 ## Stateful and Stateless Widgets
 * Update on state change
