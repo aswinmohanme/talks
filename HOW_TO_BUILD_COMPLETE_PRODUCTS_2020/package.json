@@ -1,0 +1,19 @@
+{
+  "name": "how_to_build_complete_products_2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "mdx-deck": "^4.1.1"
+  },
+  "devDependencies": {
+    "@mdx-deck/export": "^2.5.1"
+  },
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "pdf": "mdx-deck-export pdf deck.mdx",
+    "build": "mdx-deck build deck.mdx"
+  },
+  "author": "",
+  "license": "ISC"
+}
